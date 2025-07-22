@@ -47,14 +47,6 @@ module.exports = {
 };
 ```
 
-- 如果你的项目使用 ES Module，可手动将文件名改为 `oss-uploader.config.js` 并添加默认导出：
-
-  ```js
-  export default {
-    /* 同上 */
-  };
-  ```
-
 ---
 
 ## 四、CLI 使用
@@ -115,7 +107,7 @@ npm run deploy
 
 ---
 
-## 六、Vite 插件模式（Vite <7）
+## 六、插件模式（Vite 举例）
 
 > **注意**：Vite 7 及以上版本插件自动上传功能暂不支持，请使用上述 CLI 或 npm 脚本方式。  
 > 如果你在使用 Vite 6 或以下，可在 `vite.config.js` 中：
